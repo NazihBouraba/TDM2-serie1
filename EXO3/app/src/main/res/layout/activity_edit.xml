@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/monLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numero :" />
+
+    <EditText
+        android:id="@+id/txtn"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date :" />
+
+    <EditText
+        android:id="@+id/txtd"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nom plombier :" />
+
+    <EditText
+        android:id="@+id/txtp"
+        android:ems="10"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/txtttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type:" />
+
+    <EditText
+        android:id="@+id/txtt"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+    <Button
+        android:id="@+id/btnSauvegarder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sauvegarder" />
+
+</LinearLayout>
